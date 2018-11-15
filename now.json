@@ -1,0 +1,19 @@
+{
+    "name": "away-day",
+    "version": 1,
+    "type": "static",
+    "static": {
+      "public": "dist",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    
+    "alias": "away-day",
+    "files": [
+      "dist"
+    ]
+}
